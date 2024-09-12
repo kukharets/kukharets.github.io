@@ -176,10 +176,6 @@ Error generating stack: `+i.message+`
   gap: 15px;
   display: flex;
   margin-top: 85px;
-  svg {
-    opacity: 0.1;
-    height: 20px;
-  }
   flex-direction: column;
   @media (max-width: ${({theme:e})=>e.breakpoints.phone}) {
     margin-top: 100px;
@@ -211,6 +207,10 @@ Error generating stack: `+i.message+`
   top: -45px;
   span {
     line-height: 20px;
+  }
+  svg {
+    opacity: 0.1;
+    height: 20px;
   }
 `,Pw=I(Cr)`
   position: absolute;
